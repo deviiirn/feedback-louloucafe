@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feedback - Lou Lou Korean Cafe & Flowers</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff7f0;
+      margin: 0;
+      padding: 20px;
+      color: #444;
+    }
+    .container {
+      max-width: 650px;
+      margin: auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+    h1 {
+      text-align: center;
+      color: #b64154;
+      margin-bottom: 10px;
+    }
+    p {
+      text-align: center;
+      font-size: 14px;
+      color: #777;
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: 600;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 6px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 14px;
+    }
+    button {
+      margin-top: 25px;
+      background-color: #b64154;
+      color: white;
+      padding: 12px;
+      width: 100%;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #9e3446;
+    }
+    footer {
+      text-align: center;
+      font-size: 12px;
+      margin-top: 30px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Form Feedback Pelanggan</h1>
+    <p>Silakan isi form berikut agar kami bisa terus memperbaiki pelayanan & kualitas kami 💐</p>
+    <form action="#" method="post">
+      <label for="rating">Bagaimana pengalaman Anda hari ini?</label>
+      <select id="rating" name="rating">
+        <option value="5">🌟🌟🌟🌟🌟 – Sangat Memuaskan</option>
+        <option value="4">🌟🌟🌟🌟 – Memuaskan</option>
+        <option value="3">🌟🌟🌟 – Cukup</option>
+        <option value="2">🌟🌟 – Kurang</option>
+        <option value="1">🌟 – Tidak Puas</option>
+      </select>
+
+      <label for="menu">Apa menu yang Anda pesan?</label>
+      <input type="text" id="menu" name="menu" placeholder="Contoh: Honey Butter Toast & Lou Latte" />
+
+      <label for="pelayanan">Bagaimana pelayanan staf kami?</label>
+      <select id="pelayanan" name="pelayanan">
+        <option value="5">Sangat Ramah</option>
+        <option value="4">Ramah</option>
+        <option value="3">Cukup Ramah</option>
+        <option value="2">Kurang Ramah</option>
+        <option value="1">Tidak Ramah</option>
+      </select>
+
+      <label for="kenyamanan">Apakah tempatnya nyaman?</label>
+      <select id="kenyamanan" name="kenyamanan">
+        <option value="Ya">Ya</option>
+        <option value="Lumayan">Lumayan</option>
+        <option value="Tidak">Tidak</option>
+      </select>
+
+      <label for="saran">Saran atau masukan untuk kami:</label>
+      <textarea id="saran" name="saran" rows="4" placeholder="Tulis saran atau kritik Anda di sini..."></textarea>
+
+      <label for="kontak">Nama / No. WA / IG (opsional):</label>
+      <input type="text" id="kontak" name="kontak" placeholder="Opsional" />
+
+      <button type="submit">Kirim Feedback</button>
+    </form>
+    <footer>Terima kasih atas kunjungannya 💖</footer>
+  </div>
+</body>
+</html>
